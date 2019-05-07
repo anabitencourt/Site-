@@ -1,4 +1,16 @@
 <?php
+	include("cabecalho.php");
+?>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-7">
+
+	<h2>ssgfsgsfhgsfhsf</h2>
+	<div class="alert alert-success">
+  <strong>Success!</strong> Indicates a successful or positive action. <br>
+
+<?php
 	$nome = filter_input(INPUT_POST, "nome");
 	$email = filter_input(INPUT_POST, "email");
 	$descricao = filter_input(INPUT_POST, "descricao");
@@ -8,3 +20,11 @@
 	echo "<br>descrição:" . $descricao;
 	echo "<br>fone:" . $fone;
  	?>
+ 	
+ 	</div>
+ 	</div>
+ 	</div>
+ 	</div>
+ 	<?php
+	include ("rodape.php");
+?>
